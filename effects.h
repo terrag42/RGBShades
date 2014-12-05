@@ -34,10 +34,6 @@ void threeSine() {
 
 }
 
-
-
-
-
 // RGB Plasma
 byte offset  = 0; // counter for radial color wave motion
 int plasVector = 0; // counter for orbiting plasma center
@@ -114,7 +110,7 @@ void glitter() {
 }
 
 
-// Fills saturated colors into the array from alternating directions
+// colorFill fills saturated colors into the array from alternating directions
 byte currentColor = 0;
 byte currentRow = 0;
 byte currentDirection = 0;
@@ -191,7 +187,7 @@ void threeDee() {
 
 }
 
-// Random pixels scroll sideways, uses current hue
+// sideRain has random pixels scroll sideways, uses current hue
 #define rainDir 0
 void sideRain() {
 
