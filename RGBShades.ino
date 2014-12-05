@@ -37,6 +37,7 @@ byte currentBrightness = STARTBRIGHTNESS; // 0-255 will be scaled to 0-MAXBRIGHT
 #include "utils.h"
 #include "effects.h"
 #include "buttons.h"
+#include <avr/pgmspace.h>
 
 // Runs one time at the start of the program (power up or reset)
 void setup() {
